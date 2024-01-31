@@ -7,7 +7,7 @@ export interface BuildPaths {
   src: string;
 }
 
-export  interface BuildENV {
+export interface BuildENV {
   mode: BuildMode;
   port: number;
 }

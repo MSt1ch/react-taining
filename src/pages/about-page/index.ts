@@ -1,1 +1,1 @@
-export {AboutPageAsync as default} from './ui/AboutPage.async'
+export { AboutPageAsync as default } from './ui/AboutPage.async';

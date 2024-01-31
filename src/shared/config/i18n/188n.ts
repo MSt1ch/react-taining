@@ -13,7 +13,7 @@ i18n
     ns: [
       'common',
       'about',
-      'main'
+      'main',
     ],
     debug: __IS_DEV__,
     interpolation: {
@@ -21,6 +21,5 @@ i18n
     },
     react: { useSuspense: false },
   });
-
 
 export default i18n;
