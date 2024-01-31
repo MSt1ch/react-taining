@@ -13,6 +13,7 @@ export const App = () => {
         <Navbar />
         <div className='content-page'>
           <Sidebar />
+          sdfsdf
           <AppRouter />
         </div>
       </Suspense>
