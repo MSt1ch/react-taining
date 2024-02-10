@@ -3,17 +3,17 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import AppRouter from 'app/providers/router';
 import Navbar from 'widgets/navbar';
 import Sidebar from 'widgets/sidebar';
-import { Suspense } from 'react';
+import { Suspense, useEffect } from 'react';
 
 export const App = () => {
   const { theme } = useTheme();
+
   return (
     <div className={classNames('app', {}, [theme])}>
       <Suspense fallback=''>
         <Navbar />
         <div className='content-page'>
           <Sidebar />
-          sdfsdf
           <AppRouter />
         </div>
       </Suspense>
