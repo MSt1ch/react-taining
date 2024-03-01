@@ -2,5 +2,6 @@
   "language": "language",
   "notFound": "Page not found",
   "pageText": "Something was wrong...",
-  "refreshPage": "Refresh page"
+  "refreshPage": "Refresh page",
+  "toggle": "Toggle"
 }

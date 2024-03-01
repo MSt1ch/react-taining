@@ -14,7 +14,7 @@ export const PageError: FC<PageErrorProps> = ({ className }) => {
   const { t } = useTranslation('common');
 
   const reloadPage = () => {
-    location.reload();
+    window.location.reload();
   };
   return (
     <div className={classNames(css.pageError, {}, [className])}>
