@@ -3,8 +3,6 @@
  * https://jestjs.io/docs/configuration
  */
 
-import path from 'path';
-
 export default {
   // All imported modules in your tests should be mocked automatically
   // automock: false,
@@ -70,7 +68,7 @@ export default {
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
   moduleNameMapper: {
     '\\.(scss|css)$': 'identity-obj-proxy',
-    '\\.svg$': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
+    '\\.svg$': '<rootDir>/config/jest/jestEmptyComponent.tsx',
     '^@/(.*)$': '<rootDir>/src/$1',
   },
 
