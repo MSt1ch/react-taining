@@ -1,7 +1,7 @@
 import webpack from 'webpack';
 import ReactRefreshTypeScript from 'react-refresh-typescript';
 import { BuildOptions } from './types/config';
-import {buildCssLoader} from "../build/loaders/buildCssLoader";
+import { buildCssLoader } from '../build/loaders/buildCssLoader';
 
 export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
   const svgLoader = {
@@ -18,7 +18,7 @@ export function buildLoaders({ isDev }: BuildOptions): webpack.RuleSetRule[] {
     ],
   };
 
-  const cssLoader = buildCssLoader(isDev)
+  const cssLoader = buildCssLoader(isDev);
 
   const typescriptLoader = {
     test: /\.tsx?$/,
