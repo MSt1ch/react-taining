@@ -4,7 +4,7 @@ import { Theme, useTheme } from 'app/providers/theme-provider';
 
 import Button, { ThemeButton } from 'shared/ui/button';
 
-import ThemeIcon from 'shared/assets/icons/icon-theme.svg';
+import ThemeIcon from 'src/shared/assets/icons/icon-theme.svg';
 
 import css from './ThemeSwitcher.module.scss';
 
