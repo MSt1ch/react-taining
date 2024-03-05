@@ -1,5 +1,6 @@
 .appLink {
-  color: var(--primary-color);
+  color: var(--inverted-primary-color);
+  display: flex;
 }
 
 .primary {
@@ -7,5 +8,5 @@
 }
 
 .secondary {
-  color: var(--secondary-color);
+  color: var(--inverted-secondary-color);
 }

@@ -4,10 +4,7 @@
   background: var(--inverted-bg-color);
   position: relative;
   transition: width ease-in-out 0.25s;
-}
-
-.collapsed {
-  width: var(--sidebar-width-collapsed);
+  justify-content: center;
 }
 
 .switchers {
@@ -20,4 +17,58 @@
 
 .lang {
   margin-left: 10px;
+}
+
+.link {
+  margin-top: 10px;
+  transition: 0.5s all;
+}
+
+.collapsed {
+  width: var(--sidebar-width-collapsed);
+
+  .switchers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lang {
+    margin: 0;
+  }
+
+  .link {
+    opacity: 0;
+    transition: 0.1s all;
+    width: 0;
+    margin: 0;
+    font-size: 0;
+  }
+}
+
+.collapseBtn {
+  position: absolute;
+  right: -32px;
+  bottom: 32px;
+}
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-top: 10px;
+  flex: none;
+
+  path {
+    fill: var(--inverted-secondary-color);
+  }
 }

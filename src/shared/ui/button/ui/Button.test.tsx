@@ -1,6 +1,6 @@
 /* eslint-disable i18next/no-literal-string */
 import { render, screen } from '@testing-library/react';
-import { Button, ThemeButton } from './Button';
+import { Button, ButtonTheme } from './Button';
 
 describe('Button', () => {
   test('render', () => {
@@ -9,7 +9,7 @@ describe('Button', () => {
   });
 
   test('render with class', () => {
-    render(<Button className={ThemeButton.CLEAR}>test</Button>);
+    render(<Button className={ButtonTheme.CLEAR}>test</Button>);
     expect(screen.getByText('test')).toHaveClass('clear');
   });
 });
