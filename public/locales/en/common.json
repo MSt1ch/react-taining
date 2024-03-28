@@ -5,5 +5,7 @@
   "pageText": "Something was wrong...",
   "refreshPage": "Refresh page",
   "toggle": "Toggle",
-  "logIn": "Log in"
+  "logIn": "Log in",
+  "increment": "increment",
+  "decrement": "decrement"
 }
