@@ -1,0 +1,9 @@
+{
+  "posts": [
+    { "id": 1, "title": "test", "author": "test" }
+  ],
+  "users": [
+    { "id": 1, "userName": "admin", "password": "123" }
+  ],
+  "profile": { "name": "test" }
+}
